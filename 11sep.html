@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+        //  (Q)- 1. Write a function to print 'Hello World'.
+        // function hello() {
+        //     console.log("Hello World ");
+        // }
+        // hello()
+        // Output = "Hello World " //
+
+
+        // (Q)- 2. Create a function to add two numbers.
+        // function value() {
+        //     apple = 9;
+        //     banana = 6;
+        //     result = apple + banana
+        //     console.log(result);
+        // }
+        // value()
+        //  output = 15 //
+
+
+        //(Q)- 3. Write a function to subtract two numbers.
+        //  function value() {
+        //     priceBook = 50;
+        //     priceNotBook = 40;
+        //     result = priceBook - priceNotBook
+        //     console.log(result);
+        //  }
+        //  value()
+        // output = 10 //
+
+
+        // (Q) - 4. Make a function that multiplies two numbers.
+        // function value() {
+        //     priceBook = 50;
+        //     priceNotBook = 60;
+        //     result = priceBook * priceNotBook
+        //     console.log(result);
+        // }
+        // value()
+        //OUTPUT =3000 //
+
+
+        //(Q)- 5. Create a function that divides two numbers.
+        // function value() {
+        //     apple = 9;
+        //     banana = 6;
+        //     result = apple / banana
+        //     console.log(result);
+        // }
+        // value()
+        // OUTPUT = 1.5 //
+
+
+        //(Q)- 6. Write a function that takes your name and prints a greeting message.
+        //  function greeting() {
+        //     userName = "karan singh"
+        //     console.log("hello ! " + userName);
+        // }
+        // greeting()
+        // OUTPUT = "hello ! " + karan //
+
+
+        //(Q)- 7. Create a function to find the square of a number.
+        // function squareNumber() {
+        //     oppo = 2
+        //     vivo = 2 ** 1
+        //     console.log(vivo);
+        // }
+        // squareNumber()
+        //  OUTPUT = 4 //
+
+
+        //(Q)- 8. Write a function to find the cube of a number.
+        // function cubeNumber() {
+        //     oppo = 2
+        //     vivo = 2 ** 3
+        //     console.log(vivo);
+        // }
+        // cubeNumber()
+        //  OUTPUT = 8 //
+
+
+        //(Q)- 9. Create a function to check whether a number is even or odd.
+        // function value() {
+        //     let number = 25;
+        //     if (number % 2 ==0) {
+        //     console.log("even");
+
+        //     } else {
+        //         console.log("odd");
+        //     }
+        // }
+        // value()
+        //  OUTPUT = "odd" //
+
+
+        //(Q)- 10. Write a function to find the largest of two numbers.
+
+        // function check() {
+        //     value = 90
+        //     value1 = 21
+        //     if (value > value1) {
+        //         console.log("first number is largest number than ");
+        //     } else {
+        //         console.log("second number is largest number than first");
+        //     }
+        // }
+        //     check()
+        //  OUTPUT = "first number is largest number than " //
+
+
+        //(Q)- 11. Create a function to calculate area of a rectangle (length × width).
+
+        //    function rectangle() {
+        //     arealength = 20;
+        //     areawidth = 10;
+        //     areaOfRectangle = arealength * areawidth
+
+        //     console.log(areaOfRectangle);
+
+        //    }
+        //    rectangle()
+        //  OUTPUT = 200 //
+
+
+        //(Q)- 12. Write a function to convert Celsius to Fahrenheit.
+
+        // function Temperature(celsius) {
+
+        //     let fahrenheitValue = (celsius * 9 / 5) + 30;
+
+        //     console.log("Temperature in Fahrenheit: " + fahrenheitValue);
+        // }
+
+        // Temperature(20);
+        // output: Temperature in Fahrenheit: 66
+
+
+
+        // 7 september
+
+
+        // Arithmetic Operators
+
+
+        // (1) Add, subtract, multiply and divide two numbers
+
+        // function perform() {
+
+        //     let firstNumber = 50;
+        //     let secondNumber = 2;
+
+        //     let addition = firstNumber + secondNumber;
+        //     let subtraction = firstNumber - secondNumber;
+        //     let multiplication = firstNumber * secondNumber;
+        //     let division = firstNumber / secondNumber;
+
+        //     console.log(addition);
+        //     console.log(subtraction);
+        //     console.log(multiplication);
+        //     console.log(division);
+        // }
+
+        // perform();
+
+        // output:
+        // 52
+        // 48
+        // 100
+        // 25
+
+
+        // // (2) Predict the result
+
+        // function Prediction() {
+
+        //     console.log(6 + 4 * 3);
+        //     console.log((6 + 4) * 3);
+
+        // }
+
+        // Prediction();
+
+        // // output:
+        // // 18
+        // // 30
+
+
+        // (3) Area of a circle
+
+        // function Area() {
+
+        //     let radius = 10;
+        //     let piNumber = 3.14;
+
+        //     let circleArea = piNumber * radius * radius;
+
+        //     console.log(circleArea);
+
+        // }
+
+        // Area();
+        // output: 314
+
+
+        // (4) Find remainder
+
+        // function Remainder() {
+
+        //     let value = 15;
+        //     let divisor = 2;
+
+        //     let remainder = value % divisor;
+
+        //     console.log(remainder);
+
+        // }
+
+        // Remainder();
+        // output: 1
+
+
+        // (5) Find a++ and ++a
+
+        // let a = 10;
+
+        // console.log(a++);
+
+        // a = 10;
+
+        // console.log(++a);
+
+        // output:
+        // 10
+        // 11
+
+
+        // (6) Find square and cube of a number
+
+        // function number(value) {
+
+        //     let square = value * value;
+        //     let cube = value * value * value;
+
+        //     console.log("Square = " + square);
+        //     console.log("Cube = " + cube);
+
+        // }
+
+        // number(7);
+
+        // output:
+        // Square = 49
+        // Cube = 343
+
+
+
+        // Assignment Operators
+
+
+        // (7) Find the value after +=
+
+        // let x = 5;
+
+        // x += 3;
+
+        // console.log(x);
+        // output: 8
+
+
+        // (8) Modify a number using *=, /= and -=
+
+        // function Value() {
+
+        //     let amount = 25;
+
+        //     amount *= 2;
+        //     console.log(amount);
+
+        //     amount /= 2;
+        //     console.log(amount);
+
+        //     amount -= 10;
+        //     console.log(amount);
+
+        // }
+
+        // Value();
+
+        // output:
+        // 50
+        // 25
+        // 15
+
+
+        // (9) Predict the result
+
+        // let number = 4;
+
+        // number *= 3 + 2;
+
+        // console.log(number);
+        // output: 20
+
+
+        // (10) Add 10 repeatedly until reaching 100
+
+        // function increase() {
+
+        //     let value = 0;
+
+        //     while (value < 100) {
+        //         value += 10;
+        //     }
+
+        //     console.log(value);
+
+        // }
+
+        // increase();
+        // output: 100
+
+
+        // (11) Division assignment
+
+        // let money = 20;
+
+        // money /= 5;
+
+        // console.log(money);
+        // output: 4
+
+
+
+        // Comparison Operators
+
+
+        // (12) Difference between == and ===
+
+        // function check() {
+
+        //     let stringValue = "30";
+        //     let numericValue = 30;
+
+        //     let looseCheck = stringValue == numericValue;
+        //     let strictCheck = stringValue === numericValue;
+
+        //     console.log(looseCheck);
+        //     console.log(strictCheck);
+
+        // }
+
+        // check();
+
+        // output:
+        // true
+        // false
+
+
+        // (13) Predict comparison results
+
+        // console.log(12 > 8);
+        // console.log(12 < 8);
+        // console.log(12 == "12");
+        // console.log(12 === "12");
+        // console.log(12 != 7);
+        // console.log(12 !== "12");
+
+        // output:
+        // true
+        // false
+        // true
+        // false
+        // true
+        // true
+
+
+        // (14) Check whether a number is greater than or equal to 100
+
+        // function check() {
+
+        //     let value = 110;
+
+        //     if (value >= 100) {
+        //         console.log("The number is 100 or greater");
+        //     }
+        //     else {
+        //         console.log("The number is less than 100");
+        //     }
+
+        // }
+
+        // check();
+        // output: The number is 100 or greater
+
+
+        // (15) Compare two strings
+
+        // function check() {
+
+        //     let word1 = "hello";
+        //     let word2 = "Hello";
+
+        //     if (word1 == word2) {
+        //         console.log("Strings are equal");
+        //     }
+        //     else {
+        //         console.log("Strings are not equal");
+        //     }
+
+        // }
+
+        // check();
+        // output: Strings are not equal
+
+
+
+        // 8 September 
+
+
+        // Logical Operators
+
+
+        // (1) Predict the output
+
+        // console.log(true && false);
+        // console.log(true || false);
+        // console.log(!false);
+
+        // output:
+        // false
+        // true
+        // true
+
+
+        // (2) Check if a number is between 10 and 50
+
+        // function Checker(num) {
+
+        //     if (num >= 10 && num <= 50) {
+        //         console.log("Number is between 10 and 50");
+        //     }
+        //     else {
+        //         console.log("Number is outside the range");
+        //     }
+
+        // }
+
+        // Checker(25);
+        // output: Number is between 10 and 50
+
+
+        // (3) Check student passing conditions
+
+        // function Student() {
+
+        //     let studentMarks = 50;
+        //     let attendancePercent = 75;
+
+        //     if (studentMarks >= 40 && attendancePercent >= 75) {
+        //         console.log("Student has passed");
+        //     }
+        //     else {
+        //         console.log("Student has failed");
+        //     }
+
+        // }
+
+        // Student();
+        // output: Student has passed
+
+
+        // (4) Check login details
+
+        // function verify() {
+
+        //     let username = "karan123";
+        //     let password = "abc123";
+
+        //     let actualUsername = "karan123";
+        //     let actualPassword = "abc123";
+
+        //     if (username == actualUsername && password == actualPassword) {
+        //         console.log("Login successful");
+        //     }
+        //     else {
+        //         console.log("Invalid credentials");
+        //     }
+
+        // }
+
+        // verify();
+        // output: Login successful
+
+
+        // (5) Predict the result
+
+        // let firstNum = 10;
+        // let secondNum = 5;
+
+        // console.log(firstNum > 5 && secondNum < 10);
+        // console.log(firstNum < 5 || secondNum < 10);
+
+        // output:
+        // true
+        // true
+
+
+
+        // Ternary Operator
+
+
+        // (6) Even or odd with ternary
+
+        // function Check(num) {
+
+        //     let result;
+
+        //     result = num % 2 == 0 ? "Number is even" : "Number is odd";
+
+        //     console.log(result);
+
+        // }
+
+        // Check(21);
+        // output: Number is odd
+
+
+        // (7) Pass or Fail using ternary
+
+        // function result(marks) {
+
+        //     let answer = marks >= 35 ? "Pass" : "Fail";
+
+        //     console.log(answer);
+
+        // }
+
+        // result(39);
+        // output: Pass
+
+
+        // (8) Adult or Minor
+
+        // function age() {
+
+        //     let age = 18;
+
+        //     let category = age >= 18 ? "Adult" : "Minor";
+
+        //     console.log(category);
+
+        // }
+
+        // age();
+        // output: Adult
+
+
+        // (9) Positive, negative or zero
+
+        // function Type(num) {
+
+        //     let answer;
+
+        //     answer = num > 0
+        //         ? "Number is positive"
+        //         : num < 0
+        //             ? "Number is negative"
+        //             : "Number is zero";
+
+        //     console.log(answer);
+
+        // }
+
+        // Type(-8);
+        // output: Number is negativ
+
+        // 10 september 
+
+
+        // (11) Find largest of two numbers
+
+        // function largestNum() {
+
+        //     let numberOne = 85;
+        //     let numberTwo = 40;
+
+        //     if (numberOne > numberTwo) {
+        //         console.log("First number is larger");
+        //     }
+        //     else {
+        //         console.log("Second number is larger");
+        //     }
+
+        // }
+
+        // largestNum();
+        // output: First number is larger
+
+
+        // (12) Check leap year
+        // Keeping the requested original day-count method.
+
+        // function leapYear() {
+
+        //     let yearDays = 366;
+
+        //     if (yearDays > 365) {
+        //         console.log("It's a leap year");
+        //     }
+        //     else {
+        //         console.log("It's not a leap year");
+        //     }
+
+        // }
+
+        // leapYear();
+        // output: It's a leap year
+
+
+        // (13) Check divisibility by both 3 and 5
+
+        // function check() {
+
+        //     let number = 15;
+
+        //     if (number % 3 == 0 && number % 5 == 0) {
+        //         console.log("Number is divisible by both 3 and 5");
+        //     }
+        //     else {
+        //         console.log("Number is not divisible by both 3 and 5");
+        //     }
+
+        // }
+
+        // check();
+        // output: Number is divisible by both 3 and 5
+
+
+        // (14) Username and password verification
+
+        // function login() {
+
+        //     let enterUsername = "User";
+        //     let enterPassword = "xyz";
+
+        //     if (enterUsername == "User" &&
+        //         enterPassword == "xyz") {
+
+        //         console.log("Login Successful");
+
+        //     }
+        //     else {
+        //         console.log("Invalid Credentials");
+        //     }
+
+        // }
+
+        // login();
+        // output: Login Successful
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
