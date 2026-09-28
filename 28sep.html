@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>hello</h1>
+<h1>hello</h1>
+<h1>hello</h1>
+<h1>hello</h1>
+<h1>hello</h1>
+<h1>hello</h1>
+
+<button onclick="clickme()">click me </button>
+<button onclick="change()">change</button>
+<button onclick="update()">update</button>
+
+
+
+
+    <script>
+
+        function clickme(){
+            heading = document.getElementsByTagName("h1")
+            heading[1].style.color="red"
+            heading[0].style.color="blue"
+            heading[2].style.color="green"
+            heading[3].style.color="orange"
+            heading[4].style.color="yellow"
+             heading[5].style.color="pink"
+        }
+        function change(){
+            heading = document.getElementsByTagName("h1")
+            for(i = 0; i < heading.length ;i++){
+                heading[i].style.color="blue"
+                
+            }
+
+        }
+        function update(){
+            heading = document.getElementsByTagName("h1")
+            for(i = 0; i < heading.length ;i++){
+                heading[i].style.backgroundColor="lightgreen"
+                
+            }
+
+        }
+        
+
+
+    </script>
+</body>
+</html>
