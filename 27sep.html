@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Question 1 -->
+
+    <!-- <h1 id="heading">Walcome to JavaScript</h1>
+        <p id="description">Learn JavaScript</p>
+
+        <button onclick="UpdateContent()">Update Content</button> -->
+
+
+    <!-- Question 2 -->
+
+    <!--   <p>Walcome to JavaScript</p>
+        <p>hello everyone</p>
+        <p>my name is karan</p>
+        <p>i am from himachal pradesh</p>
+        <p>i live in mohali</p>
+
+        <button onclick="highlightParagraphs()">Highlight Paragraphs</button> -->
+
+
+    <!-- Question 3 -->
+
+    <!-- <h2 class="student">Student 1</h2>
+    <h2 class="student">Student 2</h2>
+    <h2 class="student">Student 3</h2>
+    <h2 class="student">Student 4</h2>
+
+    <button onclick="UpdateStudents()">Update Students</button> -->
+
+
+    <!-- Question 4 -->
+
+    <!-- <div id="result"></div>
+
+    <button onclick="showText()">Show Text</button>
+    <button onclick="showHTML()">Show HTML</button> -->
+
+
+
+     <!-- Question 5 -->
+    <h1 id="title">Student Result</h1>
+  
+   <div class="student">
+       <p>Name: Amit</p>
+       <p>Subject: JavaScript</p>
+       <p>Marks: 72</p>
+   </div>
+  
+   <div class="student">
+       <p>Name: Priya</p>
+       <p>Subject: JavaScript</p>
+       <p>Marks: 88</p>
+   </div>
+  
+   <button onclick="updateResult()">Update Result</button>
+  
+
+
+
+
+
+
+
+
+    <script>
+        //   Question 1 — getElementById() 
+        //   Create a webpage containing:
+        //         - An < h1 > with the ID heading
+        //             - A paragraph with the ID description
+        //                 - A button named Update Content
+        //   When the button is clicked:
+        //         1. Change the heading text to "JavaScript DOM Manipulation".
+        //   2. Change the paragraph text to "We are learning DOM methods in JavaScript."
+        //         3. Use getElementById() for both elements.
+        //   4. Use innerText to update the content.
+
+        // function UpdateContent() {
+        //     heading = document.getElementById("heading")
+        //     description = document.getElementById("description")
+        //     heading.innerText = "JavaScript DOM Manipulation"
+        //     description.innerText = "We are learning DOM methods in JavaScript."
+        // }
+
+
+
+
+
+
+
+
+
+        //   Question 2 — getElementsByTagName() —
+        //   Create a webpage containing five < p > elements with different text.
+        //   Add a button "Highlight Paragraphs".
+        //   When the button is clicked:
+        //             1. Select all < p > elements using getElementsByTagName().
+        //   2. Change the text of every paragraph to "Paragraph updated successfully!"
+        //             3. Change the background color of every paragraph to light yellow.
+        //   4. Use a loop to process all paragraph elements.
+
+        // function highlightParagraphs() {
+        //     paragraph = document.getElementsByTagName("p")
+        //     for (i = 0; i < paragraph.length; i++)
+        //         paragraph[i].innerText = "Paragraph updated successfully!",
+        //             paragraph[i].style.backgroundColor = "lightyellow";
+
+        // }
+
+
+
+
+
+
+
+
+        //        Question 3 — getElementsByClassName() 
+        //   Create a webpage containing:
+
+        // <h2 class="student">Student 1</h2>
+        //   <h2 class="student">Student 2</h2>
+        //   <h2 class="student">Student 3</h2>
+        //   <h2 class="student">Student 4</h2>
+
+        //   Add a button "Update Students".
+        //   When clicked:
+        //         1. Select all elements having the class student.
+        //         2. Use getElementsByClassName().
+        //   3. Change their text to:
+        //         - Student 1 - Present
+        //             - Student 2 - Present
+        //                 - Student 3 - Present
+        //                     - Student 4 - Present
+        //         4. Change their text color to green.
+
+        // function UpdateStudents() {
+        //     student = document.getElementsByClassName("student")
+        //     for (i = 0; i < student.length; i++)
+        //         student[i].innerText = "student " + (i + 1) + " - Present",
+        //             student[i].style.color = "green"
+
+        // }
+
+
+
+
+
+
+
+        //         Question 4 — innerText and innerHTML 
+
+        //   Create a webpage with:
+
+        // <div id="result"></div>
+
+        //   <button onclick="showText()">Show Text</button>
+        //   <button onclick="showHTML()">Show HTML</button>
+
+        //   Write two functions:
+        //   showText()
+        //   Use innerText to display:
+
+        // Welcome to JavaScript DOM
+        //   This content is added using innerText.
+
+        //   showHTML()
+        //   Use innerHTML to display:
+        //   - A heading <h2>
+        //   - A paragraph <p>
+        //   - A bold <strong> statement
+        //   - An unordered list containing three items
+        //   The final output should contain properly formatted HTML elements.
+
+    //     function showText() {
+    //         document.getElementById("result").innerText = "Welcome to JavaScript DOM  This content is added using innerText."
+
+    //     }
+    //     function showHTML() {
+    //         document.getElementById("result").innerHTML = `
+
+    //  <h2>walcome javascript </h2>
+
+    //  <p>hello i am leran javascript </p>
+
+    //  <strong>this is bold statement </strong>
+
+    //  <ul>
+    //     <li>HTML</li>
+    //     <li>CSS</li>
+    //     <li>JavaScript</li>
+    //     </ul>
+
+
+    //  `
+
+    //     }
+
+
+
+
+
+
+
+
+
+//           Question 5 — Combined DOM Practical — 8 Marks
+//   Create a Student Result Page containing:
+  
+// <h1 id="title">Student Result</h1>
+  
+//   <div class="student">
+//       <p>Name: Amit</p>
+//       <p>Subject: JavaScript</p>
+//       <p>Marks: 72</p>
+//   </div>
+  
+//   <div class="student">
+//       <p>Name: Priya</p>
+//       <p>Subject: JavaScript</p>
+//       <p>Marks: 88</p>
+//   </div>
+  
+//   <button onclick="updateResult()">Update Result</button>
+  
+//   Write the updateResult() function with the following requirements:
+//         1. Use getElementById() to change the < h1 > text.
+//   2. Use getElementsByClassName() to select both.student elements.
+//   3. Use getElementsByTagName() to select all < p > elements.
+//   4. Use innerText to modify at least two elements.
+//   5. Use innerHTML to add a Result: Pass message inside the student information.
+//   6. Use a loop wherever multiple elements need to be modified.
+//   Marks Distribution
+//   Question Topic Marks
+//         1 getElementById() + innerText 8
+//         2 getElementsByTagName() 8
+//         3 getElementsByClassName() 8
+//         4 innerText + innerHTML 8
+//         5 Combined DOM manipulation 8
+
+function updateResult() {
+
+           
+
+             title = document.getElementById("title");
+
+            title.innerText = "Updated Student Result";
+
+           
+
+             students = document.getElementsByClassName("student");
+
+          
+
+             paragraphs = document.getElementsByTagName("p");
+
+           
+            }
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
